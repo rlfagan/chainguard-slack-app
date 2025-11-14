@@ -87,9 +87,9 @@ LOG_LEVEL=info
 # ===================
 # Slack Configuration
 # ===================
-SLACK_BOT_TOKEN=xoxb-1234567890-1234567890123-ABCdefGHIjklMNOpqrSTUvwx
-SLACK_SIGNING_SECRET=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
-SLACK_APP_TOKEN=xapp-1-A1B2C3D4E5-1234567890-ABCdefGHIjklMNOpqrSTUvwxYZabcdefGHIjklMNOpqrSTUvwxYZ
+SLACK_BOT_TOKEN=xoxb-YOUR-BOT-TOKEN-HERE
+SLACK_SIGNING_SECRET=your-signing-secret-here
+SLACK_APP_TOKEN=xapp-YOUR-APP-TOKEN-HERE
 
 # ========================
 # Chainguard Configuration
