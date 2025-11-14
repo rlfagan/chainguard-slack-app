@@ -66,8 +66,8 @@ You'll need the following from your Chainguard setup:
 
 - **Organization ID**: Your Chainguard org ID (e.g., `a77871fcfc77ed549380eb0555edb82af4a266d4`)
 - **API Token**: Generate an API token from the Chainguard console
-- **Registry URL**: Your custom registry (e.g., `cgr.dev/ronan_demo.com`)
-- **APK Registry URL**: Your APK registry (e.g., `https://apk.cgr.dev/ronan_demo.com`)
+- **Registry URL**: Your custom registry (e.g., `cgr.dev/demo.com`)
+- **APK Registry URL**: Your APK registry (e.g., `https://apk.cgr.dev/demo.com`)
 
 To get your organization details:
 ```bash
@@ -93,8 +93,8 @@ SLACK_APP_TOKEN=xapp-your-actual-app-token
 CHAINGUARD_API_URL=https://console-api.enforce.dev
 CHAINGUARD_API_TOKEN=your-chainguard-api-token
 CHAINGUARD_ORG_ID=a77871fcfc77ed549380eb0555edb82af4a266d4
-CHAINGUARD_REGISTRY=cgr.dev/ronan_demo.com
-CHAINGUARD_APK_REGISTRY=https://apk.cgr.dev/ronan_demo.com
+CHAINGUARD_REGISTRY=cgr.dev/demo.com
+CHAINGUARD_APK_REGISTRY=https://apk.cgr.dev/demo.com
 
 # App Configuration
 PORT=3000
@@ -138,7 +138,7 @@ You should see:
 ✅ All listeners registered
 ⚡️ Chainguard Slack App is running on port 3000!
 📦 Connected to Chainguard Org: a77871fcfc77ed549380eb0555edb82af4a266d4
-🔐 Registry: cgr.dev/ronan_demo.com
+🔐 Registry: cgr.dev/demo.com
 👥 Approvers configured: 2
 ```
 

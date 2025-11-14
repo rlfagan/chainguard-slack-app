@@ -24,7 +24,7 @@ kind: Build
 metadata:
   name: test-custom-node
 spec:
-  baseImage: cgr.dev/ronan_demo.com/node:latest
+  baseImage: cgr.dev/demo.com/node:latest
   packages:
     - python-3.14
 ```
@@ -58,7 +58,7 @@ chainctl images repos build apply -f build.yaml --parent a77871fcfc77ed549380eb0
 **Always**: `cgr.dev/<CUSTOMER_ORG>/`
 
 Example:
-- Your org: `cgr.dev/ronan_demo.com/`
+- Your org: `cgr.dev/demo.com/`
 - Customer org: `cgr.dev/<customer_org>/`
 
 ### 3. Authentication Challenges

@@ -260,7 +260,7 @@ Python programming language (3.14)
    - Check Chainguard console
    - New custom image appears in organization images list
    - Status shows "Customized"
-   - Image URL: `cgr.dev/ronan_demo.com/custom:v1.25.4`
+   - Image URL: `cgr.dev/demo.com/custom:v1.25.4`
 
 ## App Configuration Summary
 

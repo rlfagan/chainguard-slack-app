@@ -3,7 +3,7 @@ kind: Build
 metadata:
   name: test-custom-node
 spec:
-  baseImage: cgr.dev/ronan_demo.com/node:latest
+  baseImage: cgr.dev/demo.com/node:latest
   packages:
     - python-3.14
     - wget

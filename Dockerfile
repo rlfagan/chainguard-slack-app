@@ -10,7 +10,7 @@ RUN apk add --no-cache curl && \
     chmod +x /tmp/chainctl
 
 # Stage 2: Build the application
-FROM cgr.dev/ronan_demo.com/node:latest-dev
+FROM cgr.dev/demo.com/node:latest-dev
 
 # Switch to root to copy chainctl and install dependencies
 USER root

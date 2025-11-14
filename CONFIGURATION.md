@@ -96,7 +96,7 @@ SLACK_APP_TOKEN=xapp-YOUR-APP-TOKEN-HERE
 # ========================
 CHAINGUARD_ORG_ID=a77871fcfc77ed549380eb0555edb82af4a266d4
 CHAINCTL_TOKEN=your-actual-chainctl-token-here
-CHAINGUARD_REGISTRY=cgr.dev/ronan_demo.com
+CHAINGUARD_REGISTRY=cgr.dev/demo.com
 CHAINGUARD_API_URL=https://console-api.enforce.dev
 
 # ======================
@@ -221,7 +221,7 @@ Output example:
 ```
                      ID                    |        NAME        
 -------------------------------------------+--------------------
- a77871fcfc77ed549380eb0555edb82af4a266d4 | ronan_demo.com
+ a77871fcfc77ed549380eb0555edb82af4a266d4 | demo.com
 ```
 
 Copy the ID and set as `CHAINGUARD_ORG_ID`.
@@ -235,7 +235,7 @@ cgr.dev/<organization-name>
 
 For example:
 ```env
-CHAINGUARD_REGISTRY=cgr.dev/ronan_demo.com
+CHAINGUARD_REGISTRY=cgr.dev/demo.com
 ```
 
 #### 5. Generate API Token
