@@ -1,0 +1,79 @@
+{
+  "display_information": {
+    "name": "Chainguard Image Manager",
+    "description": "Request and approve custom Chainguard container images",
+    "background_color": "#4A154B",
+    "long_description": "A comprehensive Slack app for managing Chainguard custom container images. Submit requests, get approvals, and track the build status of your custom images directly from Slack."
+  },
+  "features": {
+    "app_home": {
+      "home_tab_enabled": false,
+      "messages_tab_enabled": true,
+      "messages_tab_read_only_enabled": false
+    },
+    "bot_user": {
+      "display_name": "Chainguard Image Manager",
+      "always_online": true
+    },
+    "shortcuts": [
+      {
+        "name": "Request Chainguard Image",
+        "type": "global",
+        "callback_id": "request_image_shortcut",
+        "description": "Submit a request for a new Chainguard custom image"
+      }
+    ],
+    "slash_commands": [
+      {
+        "command": "/request-image",
+        "description": "Request a new Chainguard custom image",
+        "usage_hint": "[image-name]",
+        "should_escape": false
+      },
+      {
+        "command": "/list-requests",
+        "description": "List all image requests",
+        "usage_hint": "[status]",
+        "should_escape": false
+      },
+      {
+        "command": "/search-packages",
+        "description": "Search for available packages to add to images",
+        "usage_hint": "[search-term]",
+        "should_escape": false
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "commands",
+        "chat:write",
+        "chat:write.public",
+        "im:write",
+        "im:history",
+        "users:read",
+        "users:read.email",
+        "channels:read",
+        "groups:read",
+        "im:read",
+        "mpim:read",
+        "app_mentions:read"
+      ]
+    }
+  },
+  "settings": {
+    "event_subscriptions": {
+      "bot_events": [
+        "app_mention",
+        "message.im"
+      ]
+    },
+    "interactivity": {
+      "is_enabled": true
+    },
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": false
+  }
+}

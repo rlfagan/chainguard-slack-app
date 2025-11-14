@@ -1,0 +1,22 @@
+{
+  "name": "chainguard-slack-app",
+  "version": "1.0.0",
+  "description": "Slack app for requesting and approving Chainguard custom images",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["slack", "chainguard", "bot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

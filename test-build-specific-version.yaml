@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Build
+metadata:
+  name: test-node-25
+spec:
+  baseImage: cgr.dev/ronan_demo.com/node:25
+  packages:
+    - python-3.14
+  description: Test build for node version 25 with python

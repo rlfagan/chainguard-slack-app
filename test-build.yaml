@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Build
+metadata:
+  name: test-custom-node
+spec:
+  baseImage: cgr.dev/ronan_demo.com/node:latest
+  packages:
+    - python-3.14
+    - wget
+  description: Test build from Slack app

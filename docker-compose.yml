@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  chainguard-slack-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: chainguard-slack-app:latest
+    container_name: chainguard-slack-app
+    env_file:
+      - .env
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3001}:${PORT:-3001}"
+    environment:
+      - NODE_ENV=production
+      - PORT=${PORT:-3001}
+      - CHAINCTL_TOKEN=${CHAINGUARD_API_TOKEN}
+    volumes:
+      # Mount chainctl config if it exists locally (Chainguard uses UID 65532)
+      - ~/.config/chainctl:/home/nonroot/.config/chainctl:ro
+    networks:
+      - chainguard-net
+
+networks:
+  chainguard-net:
+    driver: bridge
