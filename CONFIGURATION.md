@@ -42,7 +42,7 @@ SLACK_APP_TOKEN=xapp-your-app-token-here
 # Chainguard Organization ID
 # Find with: chainctl org ls
 # Format: UUID-style identifier
-CHAINGUARD_ORG_ID=a77871fcfc77ed549380eb0555edb82af4a266d4
+CHAINGUARD_ORG_ID=aaaa1111bbbb2222cccc3333dddd4444eeee5555
 
 # Chainguard API Token
 # Generate with: chainctl auth token
@@ -94,7 +94,7 @@ SLACK_APP_TOKEN=xapp-YOUR-APP-TOKEN-HERE
 # ========================
 # Chainguard Configuration
 # ========================
-CHAINGUARD_ORG_ID=a77871fcfc77ed549380eb0555edb82af4a266d4
+CHAINGUARD_ORG_ID=aaaa1111bbbb2222cccc3333dddd4444eeee5555
 CHAINCTL_TOKEN=your-actual-chainctl-token-here
 CHAINGUARD_REGISTRY=cgr.dev/demo.com
 CHAINGUARD_API_URL=https://console-api.enforce.dev
@@ -221,7 +221,7 @@ Output example:
 ```
                      ID                    |        NAME        
 -------------------------------------------+--------------------
- a77871fcfc77ed549380eb0555edb82af4a266d4 | demo.com
+ aaaa1111bbbb2222cccc3333dddd4444eeee5555 | demo.com
 ```
 
 Copy the ID and set as `CHAINGUARD_ORG_ID`.

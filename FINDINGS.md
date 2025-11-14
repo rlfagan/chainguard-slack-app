@@ -47,10 +47,10 @@ Key differences:
 #### Example:
 ```bash
 # This WORKS - applies to existing "node" repo
-chainctl images repos build apply -f build.yaml --parent a77871fcfc77ed549380eb0555edb82af4a266d4 --repo node --yes
+chainctl images repos build apply -f build.yaml --parent aaaa1111bbbb2222cccc3333dddd4444eeee5555 --repo node --yes
 
 # This FAILS - "custom-node" doesn't exist
-chainctl images repos build apply -f build.yaml --parent a77871fcfc77ed549380eb0555edb82af4a266d4 --repo custom-node --yes
+chainctl images repos build apply -f build.yaml --parent aaaa1111bbbb2222cccc3333dddd4444eeee5555 --repo custom-node --yes
 ```
 
 ### 2. Registry URL Format
@@ -169,7 +169,7 @@ async function loadAvailableRepos() {
 
 ### Successful Local Test:
 ```bash
-$ chainctl images repos build apply -f test-build.yaml --parent a77871fcfc77ed549380eb0555edb82af4a266d4 --repo node --yes
+$ chainctl images repos build apply -f test-build.yaml --parent aaaa1111bbbb2222cccc3333dddd4444eeee5555 --repo node --yes
 
 Applying build config to node
   (*v1.CustomOverlay)(Inverse(protocmp.Transform, protocmp.Message{

@@ -22,5 +22,5 @@ chmod +x /tmp/fake-editor.sh
 export EDITOR=/tmp/fake-editor.sh
 
 # Try the edit command with --save-as
-chainctl image repo build edit --parent a77871fcfc77ed549380eb0555edb82af4a266d4 --repo node --save-as test-python-node --yes 2>&1 || echo "Command failed: $?"
+chainctl image repo build edit --parent aaaa1111bbbb2222cccc3333dddd4444eeee5555 --repo node --save-as test-python-node --yes 2>&1 || echo "Command failed: $?"
 
