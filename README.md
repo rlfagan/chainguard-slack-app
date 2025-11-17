@@ -335,16 +335,8 @@ MIT
 
 For issues related to:
 - **Slack integration**: Check [Slack API documentation](https://api.slack.com/)
-- **Chainguard API**: Check [Chainguard documentation](https://edu.chainguard.dev/)
+- **Chainguard CTL**: Check [Chainguard documentation](https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl/)
 - **This app**: Open an issue in the repository
 
-## Roadmap
 
-- [ ] Add persistent database support
-- [ ] Implement request expiration/auto-rejection
-- [ ] Add more detailed status tracking
-- [ ] Support for updating existing custom assemblies
-- [ ] Integration with Slack workflows
-- [ ] Admin commands for managing approvers
-- [ ] Metrics and analytics dashboard
 - [ ] Multi-organization support
